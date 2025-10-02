@@ -13,3 +13,13 @@
 IEEE Std 830-1998. Recommended Practice for Software Requirements Specification. Sommerville, I. Ingeniería del Software, 10ª edición, Pearson, 2018. 
 Apuntes del campus virtual de la asignatura Ingeniería del Software.
 https://docs.github.com/es/get-started/start-your-journey/about-github-and-git
+
+2.1 Perspectiva del producto En este apartado se describe de manera general el producto que va a ser desarrollado: dónde va a ser utilizado, si es parte de un sistema mayor se explica las relaciones que tiene con otros sistemas, características de las interfaces software y hardware, características de las interfaces de usuario, interfaces de comunicación, restricciones de memoria, modos de operación, requisitos de adaptación,…
+
+El software a desarrollar, se trata de un Gestor de Hotel, el cual será utilizado en el ámbito administrativo de los hoteles, destinado sobre todo a los personales administrativos.
+
+El sistema desarrollado, es un gestor básico de operaciones hoteleras. Su propósito principal es ofrecer una solución funcional, intuitiva y escalable para la administración de pequeñas y medianas instalaciones hoteleras, facilitando tareas como la gestión de reservas, el control de habitaciones, el registro de clientes y la facturación.
+
+Su diseño modular permite una implementación rápida en equipos de escritorio o portátiles con sistemas operativos modernos, sin requerimientos técnicos avanzados.
+
+Tiene una interfaz intuitivo, fácil de entender, y usar el cual, permite a los usuarios tener bajo coste de aprendizaje y uso,
