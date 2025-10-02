@@ -1,0 +1,15 @@
+1.3 Definiciones, acrónimos y abreviaturas
+
+- API: Es la abreviatura de Interfaz de programación de aplicaciones, y hace referencia a un conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca software para ser utilizada por otro software como una capa de abstracción, permitiendo la comunicación de este a través de un conjunto de reglas.
+
+- BD (Base de Datos): Conjunto de datos estructurados, almacenados electrónicamente en un sistema informático, que permite el acceso, gestión y actualización de la información. 
+
+- SRS (Software Requirements Specification): Documento que define los requisitos funcionales y no funcionales de un sistema software. Sirve como contrato entre el cliente y el equipo de desarrollo, asegurando que ambas partes conocen lo que debe hacer el sistema.
+
+-GitHub: GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El código de los proyectos alojados en GitHub se almacena generalmente de forma pública.
+
+1.4 Referencias 
+
+IEEE Std 830-1998. Recommended Practice for Software Requirements Specification. Sommerville, I. Ingeniería del Software, 10ª edición, Pearson, 2018. 
+Apuntes del campus virtual de la asignatura Ingeniería del Software.
+https://docs.github.com/es/get-started/start-your-journey/about-github-and-git
