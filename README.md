@@ -4,7 +4,7 @@ Documentación y código fuente del proyecto
 
 1.1 Propósitos
 
-Este documento tiene como objetivo describir de forma clara los requisitos del Sistema de Gestión Hotelera (SGH). Está destinado a servir de referencia tanto para el cliente (la dirección del hotel), como para el equipo de desarrollo encargado de construir la aplicación y para los usuarios finales, que serán recepcionistas, administrativos y personal encargado de la atención a huéspedes.
+Este documento tiene como objetivo describir de forma clara los requisitos del Sistema de Gestión del Hotel (SGH). Está destinado a servir de referencia tanto para el cliente (la dirección del hotel), como para el equipo de desarrollo encargado de construir la aplicación y para los usuarios finales, que serán recepcionistas, administrativos y personal encargado de la atención a huéspedes.
 El propósito fundamental es garantizar que todas las partes implicadas compartan la misma visión del sistema: qué funcionalidades ofrecerá, cómo se utilizará y cuáles serán los beneficios que aportará a la organización.
 
 1.2 Alcance
