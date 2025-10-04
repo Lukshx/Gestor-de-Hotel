@@ -1,0 +1,18 @@
+2.1 Perspectiva del producto
+
+El sistema de gestión hotel (SGH) se desarrollará como una aplicación web y móvil destinada a la administración integral de un hotel. El cual permitirá gestionar reservas. Por otra parte, el sistema podrá integrarse con plataformas externas como las aplicaciones de Booking, Airbnb, etc y sistemas de pago electrónicos. Incluirá interfaces gráficas para recepción, administración y clientes. El producto funcionará en servidores con base de datos centralizada y acceso mediante navegador web y aplicación móvil.
+
+2.2 Funciones del producto 
+
+El Sistema de gestión de hotel (SGH) consta de tres elementos fundamentales: clientes, habitaciones y reservas. 
+El apartado de clientes cubrirá los datos personales del cliente (teléfono, dirección de correo…)
+En las habitaciones tenemos control de habitaciones, facturación, disponibilidad de habitaciones en tiempo real, también los servicios adicionales (restaurante, spa, transporte…) 
+En reservas tenemos  gestión de reservas (crear, modificar, cancelar), así como  el proceso de check-in, check-out. También la generación de facturas y pagos online.
+
+2.3 Características del usuario 
+
+Los usuarios del sistema serán administrador, los cuales tienen el acceso total para configurar habiatciones, precios, serviviso y generar reportes. Los recepcionistas, que son los encaragados de gestioanr reservas y facturación. Los clientes, usuarios que finalizara su reservas online, consultar disponibilidad y pagar sus servicios. Personal de servicio, usuario con acceso limitado para el mantenimiento de limpieza
+
+
+
+
