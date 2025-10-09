@@ -1,0 +1,5 @@
+2.6 FUTURAS
+
+Se prevé la incorporación de un nuevo subsistema denominado “Servicios”, que integrará las funciones de spa, chofer y restaurante dentro del sistema de gestión del hotel. Este subsistema permitirá ofrecer y administrar servicios adicionales de manera centralizada, con integración directa a los módulos existentes de Clientes, Habitaciones y Reservas.
+Además, se plantea la posibilidad de implementar ofertas personalizadas para clientes, vincular habitaciones con plazas de parking, y extender la funcionalidad de reservas para incluir eventos de gran escala (bodas, conferencias, etc.).
+La arquitectura del sistema deberá mantenerse modular y escalable para facilitar futuras ampliaciones y asegurar la interoperabilidad entre todos los subsistemas.
