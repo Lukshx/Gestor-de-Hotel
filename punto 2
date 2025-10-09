@@ -13,6 +13,48 @@ En reservas tenemos  gestión de reservas (crear, modificar, cancelar), así com
 
 Los usuarios del sistema serán administrador, los cuales tienen el acceso total para configurar habiatciones, precios, serviviso y generar reportes. Los recepcionistas, que son los encaragados de gestioanr reservas y facturación. Los clientes, usuarios que finalizara su reservas online, consultar disponibilidad y pagar sus servicios. Personal de servicio, usuario con acceso limitado para el mantenimiento de limpieza
 
+2.4 RESTRICCIONES (REQUISITOS NO FUNCIONALES)
 
+Esta sección define las limitaciones y condiciones técnicas bajo las cuales debe operar el sistema, estableciendo criterios de calidad y desempeño.
+
+2.4.1 Normativas, Protocolos y Estándares
+
+· La aplicación deberá cumplir con el Reglamento General de Protección de Datos (RGPD) y la LOPDGDD para la gestión de datos personales de los usuarios.
+· Deberá adherirse a los estándares de accesibilidad web WCAG 2.1, nivel AA, para garantizar que todos los usuarios, incluyendo aquellos con discapacidades, puedan utilizar el sitio.
+· Todo el código desarrollado deberá seguir los estándares web W3C (HTML5, CSS3, JavaScript) para garantizar la compatibilidad entre navegadores.
+· Las transacciones de pago deberán implementarse bajo el estándar PCI DSS (Payment Card Industry Data Security Standard).
+
+2.4.2 Limitaciones de Hardware y Entorno
+
+· La aplicación será una solución web responsiva y no requerirá hardware específico por parte del usuario final.
+· El servidor de producción deberá tener una disponibilidad mínima del 99.9% y capacidad de escalado para manejar picos de tráfico (ej. temporada alta, campañas de marketing).
+
+2.4.3 Interfaces con Otras Aplicaciones
+
+· La aplicación deberá integrarse con, al menos, una Pasarela de Pago Externa (ej: Redsys, PayPal, Stripe) mediante sus APIs oficiales.
+· Deberá existir una interfaz para la sincronización bidireccional en tiempo real de la disponibilidad de habitaciones con el Sistema de Gestión Hotelero (PMS) interno del hotel.
+
+2.4.4 Operaciones en Paralelo y Rendimiento
+
+· El sistema debe soportar un mínimo de 100 usuarios concurrentes realizando operaciones de consulta y reserva simultáneamente sin degradación del rendimiento.
+· El tiempo de carga de cualquier página no deberá exceder 3 segundos en una conexión de banda ancha estándar.
+
+2.4.5 Funciones de Auditoría y Control
+
+· El sistema debe registrar un log completo de todas las transacciones de reserva, modificaciones y cancelaciones, incluyendo fecha, hora, usuario e IP.
+· Se debe implementar un panel de administración (backend) con control de acceso basado en roles (ej: administrador, recepcionista) para gestionar reservas, tarifas y habitaciones.
+
+2.4.6 Requisitos de Fiabilidad, Robustez y Seguridad
+
+· Fiabilidad: La tasa de error en transacciones de reserva y pago debe ser inferior al 0.1%.
+· Robustez: La aplicación debe gestionar adecuadamente errores inesperados (ej: caída de la pasarela de pago, timeout de la base de datos) mostrando mensajes de error claros al usuario sin caerse.
+· Seguridad:
+  · Todas las comunicaciones deberán utilizar el protocolo HTTPS (SSL/TLS).
+  · Las contraseñas de los usuarios deberán almacenarse encriptadas mediante funciones de hash robustas (ej: bcrypt).
+  · La aplicación deberá ser desarrollada siguiendo prácticas de seguridad OWASP para prevenir vulnerabilidades comunes (ej: Inyección SQL, XSS).
+
+2.4.7 Criticidad de la Aplicación
+
+· La aplicación se considera de ALTA criticidad para el negocio, ya que funcionará como el principal canal de venta directa y punto de contacto con el cliente. Una caída o mal funcionamiento implica una pérdida de ingresos directa y un daño significativo a la imagen de la marca.
 
 
